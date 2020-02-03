@@ -1,0 +1,92 @@
+.container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#map {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#input-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#mapid {
+  height: 400px;
+}
+
+.errMessage {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 50px;
+}
+
+/* Adjusting the responsive more precisely 
+    Thos technic is the bootstrap responsive breakpoints 
+*/
+
+@media screen and (max-width: 660px) {
+  .formtypetext {
+    max-width: 190px;
+    margin-right: 15px;
+    margin-left: 7px;
+  }
+
+  .formclickbutton {
+    width: 100px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+
+.meteodescription {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-width: 305px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formclickbutton {
+  background-color: rgb(255, 191, 67);
+  border: none;
+}
+.formclickbutton:hover {
+  background-color: rgb(255, 140, 67);
+}
+
+.deletepicto {
+  color: rgb(255, 191, 67);
+  cursor: pointer;
+}
+
+.deletepicto:hover {
+  color: rgb(255, 140, 67);
+}
+
+.navItem {
+  margin-bottom: 10px;
+}
+
+.get_started {
+  margin-bottom: 70px;
+}
+
+.home {
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
